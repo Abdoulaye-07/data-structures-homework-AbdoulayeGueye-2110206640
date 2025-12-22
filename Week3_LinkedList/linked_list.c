@@ -1,3 +1,10 @@
+/*
+Student Name: ABDOULAYE GUEYE
+Student ID: 2110206640
+Week: 3
+Topic: Linked List
+*/
+
 #include <stdio.h>
 struct Node {
 int data;
