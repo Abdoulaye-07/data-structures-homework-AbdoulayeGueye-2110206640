@@ -1,5 +1,12 @@
-#include <stdio.h>
+/*
+Student Name: ABDOULAYE GUEYE
+Student ID: 2110206640
+Week: 1
+Topic: Array Operations
+*/
 
+
+#include <stdio.h>
 
 int main() {
 int arr[100] = {10, 20, 30, 40, 50};
