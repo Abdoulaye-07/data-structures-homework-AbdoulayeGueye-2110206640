@@ -1,3 +1,10 @@
+/*
+Student Name: ABDOULAYE GUEYE
+Student ID: 2110206640
+Week: 11
+Topic: Graph Cluster
+*/
+
 #include <stdio.h>
 
 
