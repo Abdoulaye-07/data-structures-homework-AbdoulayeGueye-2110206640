@@ -1,3 +1,6 @@
+**Student Name:** ABDOULAYE GUEYE
+**Student ID:** 2110206640  
+
 Data Structures Homework – C Language
 
 This repository contains my Data Structures homework implemented in C.
