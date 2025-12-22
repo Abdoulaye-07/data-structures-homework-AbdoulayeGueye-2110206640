@@ -1,3 +1,10 @@
+/*
+Student Name: ABDOULAYE GUEYE
+Student ID: 2110206640
+Week: 5
+Topic: Shunting Yard
+*/
+
 #include <stdio.h>
 #include <ctype.h>
 
