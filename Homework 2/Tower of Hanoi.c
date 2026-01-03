@@ -1,3 +1,10 @@
+/*
+Student Name: ABDOULAYE GUEYE
+Student ID: 2110206640
+Homework 2
+Topic: Doubly Linked List
+*/
+
 #include <stdio.h>
 
 void hanoi(int n, char from, char to, char aux) {
