@@ -5,32 +5,57 @@ Homework 5
 Topic: Doubly Linked List
 */
 
+#include <stdio.h>
+#include <stdlib.h>
+
 struct Node {
-int data;
-struct Node *prev, *next;
+    int data;
+    struct Node *prev, *next;
 };
 
+struct Node* head = NULL;
 
-void insertEnd(struct Node** head, int data) {
-struct Node* newNode = malloc(sizeof(struct Node));
-newNode->data = data;
-newNode->next = NULL;
-
-
-if(*head == NULL) {
-newNode->prev = NULL;
-*head = newNode;
-return;
+void insert(int data) {
+    struct Node* n = malloc(sizeof(struct Node));
+    n->data = data;
+    n->prev = NULL;
+    n->next = head;
+    if(head != NULL)
+        head->prev = n;
+    head = n;
 }
-struct Node* temp = *head;
-while(temp->next != NULL)
-temp = temp->next;
-temp->next = newNode;
-newNode->prev = temp;
+
+void delete(int key) {
+    struct Node* temp = head;
+    while(temp && temp->data != key)
+        temp = temp->next;
+
+    if(temp == NULL) return;
+
+    if(temp->prev)
+        temp->prev->next = temp->next;
+    else
+        head = temp->next;
+
+    if(temp->next)
+        temp->next->prev = temp->prev;
+
+    free(temp);
 }
-//Delete All Nodes (Recursive)
-void deleteAll(struct Node* node) {
-if(node == NULL) return;
-deleteAll(node->next);
-free(node);
+
+void traverse() {
+    struct Node* temp = head;
+    while(temp) {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+}
+
+int main() {
+    insert(10);
+    insert(20);
+    insert(30);
+    delete(20);
+    traverse();
+    return 0;
 }
