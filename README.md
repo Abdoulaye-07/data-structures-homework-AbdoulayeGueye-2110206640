@@ -1,87 +1,173 @@
 **Student Name:** ABDOULAYE GUEYE
 **Student ID:** 2110206640  
 
-Data Structures Homework – C Language
+📘 Data Structures – Homework Exercises (C Language)
+📌 Description
 
-This repository contains my Data Structures homework implemented in C.
-Each folder represents one weekly topic, including basic explanations and working code.
+This repository contains Data Structures homework exercises implemented in C language.
+Each exercise is placed in a separate folder named according to the homework number and topic.
 
-* Week 1 – Array Operations
+The purpose of this repository is to practice and demonstrate core data structures and algorithms commonly taught in university-level Data Structures courses.
 
-Topics covered:
+📂 Repository Structure
+Data-Structures/
+│
+├── Homework 1/
+│   └── Sparse Matrix.c
+│
+├── Homework 2/
+│   └── Tower of Hanoi.c
+│
+├── Homework 3/
+│   └── Shunting Yard (Infix → Postfix).c
+│
+├── Homework 4/
+│   └── Max Min Heap.c
+│
+├── Homework 5/
+│   └── Doubly Linked List.c
+│
+├── Homework 6/
+│   └── Circular Linked List.c
+│
+├── Homework 7/
+│   └── Array Insertion Deletion.c
+│
+├── Homework 8/
+│   └── Graph Cluster.c
+│
+├── Homework 9/
+│   └── DFS BFS.c
+│
+├── Homework 10/
+│   └── Tree Using Array.c
+│
+└── README.md
 
-Traversal
+📝 Homework Details
+Homework 1 – Sparse Matrix
 
-Insertion
+Converts a regular matrix into sparse matrix representation.
 
-Deletion
+Stores only non-zero elements.
 
-Description:
-This program shows how to print array elements, insert a new element at a specific position, and delete an element from an array.
+📌 Topics:
+Arrays, Matrix Representation, Memory Optimization
 
-* Week 3 – Singly Linked List
+Homework 2 – Tower of Hanoi
 
-Topics covered:
+Recursive solution for the Tower of Hanoi problem.
 
-Traversal
+Prints each disk movement step.
 
-Insert at beginning and end
+📌 Topics:
+Recursion, Divide and Conquer
 
-Delete a node
+Homework 3 – Shunting Yard Algorithm
 
-Description:
-This program demonstrates basic operations on a singly linked list using dynamic memory allocation.
+Converts an infix expression to postfix notation.
 
-* Week 4 – Doubly Linked List
+Uses stack and operator precedence rules.
 
-Topics covered:
+📌 Topics:
+Stack, Expression Evaluation, Parsing Algorithms
 
-Insert at the end
+Homework 4 – Max Heap / Min Heap
 
-Recursive deletion of all nodes
+Implements heap insertion using array representation.
 
-Description:
-This program shows how a doubly linked list works and how to free all allocated memory safely.
+Maintains heap property.
 
-* Week 5 – Shunting Yard Algorithm
+📌 Topics:
+Heap, Binary Tree, Priority Queue
 
-Topics covered:
+Homework 5 – Doubly Linked List
 
-Stack usage
+Insertion of nodes
 
-Infix to postfix conversion
+Deletion of nodes
 
-Description:
-This program converts an infix expression into postfix form using the Shunting Yard algorithm.
+Traversal of the list
 
-* Week 11 – Graph Traversal (Connected Components)
+📌 Topics:
+Linked Lists, Dynamic Memory Allocation
 
-Topics covered:
+Homework 6 – Circular Linked List
 
-Graph representation using adjacency matrix
+Circular node insertion
 
-Depth First Search (DFS)
+Traversal of circular list
 
-Finding connected components
+📌 Topics:
+Circular Linked Lists, Pointers
 
-Description:
-This program finds and prints connected components (clusters) in a graph.
+Homework 7 – Array Insertion and Deletion
 
-⚙️ How to Compile and Run
+Insert an element at a given position
 
-Use the following commands:
+Delete an element from an array
+
+📌 Topics:
+Arrays, Index Manipulation
+
+Homework 8 – Graph Cluster Extraction
+
+Finds connected components (clusters) in a graph.
+
+Graph represented using adjacency matrix.
+
+📌 Topics:
+Graphs, Connected Components, DFS
+
+Homework 9 – DFS and BFS
+
+Implements Depth First Search
+
+Implements Breadth First Search
+
+📌 Topics:
+Graph Traversal, Queue, Recursion
+
+Homework 10 – Tree Creation Using Array
+
+Binary tree represented using array indexing.
+
+Demonstrates parent–child relationships.
+
+📌 Topics:
+Binary Trees, Array Representation
+
+🛠 How to Compile and Run
+
+Use a C compiler such as GCC:
 
 gcc filename.c -o output
 ./output
 
-📂 Repository Structure
 
-Each week is stored in a separate folder with its corresponding C file.
+Example:
 
-✅ Notes
+gcc "Sparse Matrix.c" -o sparse
+./sparse
 
-All programs are written in C language
+🎯 Learning Objectives
 
-Codes are tested and working
+Understand fundamental data structures
 
-This repository is prepared for educational purposes
+Practice memory management in C
+
+Apply recursive and iterative algorithms
+
+Learn graph and tree traversal techniques
+
+👨‍🎓 Author
+
+Abdoulaye Gueye
+
+⭐ Notes
+
+All programs are written in standard C
+
+Each homework is independent
+
+Suitable for assignments, exams, and revision
