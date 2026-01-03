@@ -1,7 +1,7 @@
 /*
 Student Name: ABDOULAYE GUEYE
 Student ID: 2110206640
-Week: 4
+Homework 6
 Topic: Doubly Linked List
 */
 
