@@ -1,3 +1,10 @@
+/*
+Student Name: ABDOULAYE GUEYE
+Student ID: 2110206640
+Week: 4
+Topic: Doubly Linked List
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
